@@ -37,4 +37,5 @@ if  valid_move?(board, index)
 else valid_move?(board, index) == false
 input = gets.strip
 end
+display_board(board)
 end
