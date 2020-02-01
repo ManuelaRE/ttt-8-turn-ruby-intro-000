@@ -40,4 +40,3 @@ end
 display_board(board)
 end
 
-move(board,index)
