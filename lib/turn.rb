@@ -39,4 +39,3 @@ input = gets.strip
 end
 display_board(board)
 end
-
