@@ -33,7 +33,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
 if  valid_move?(board, index)
-  #make valid move
+  move(board, index, current_player = "X")
 else valid_move?(board, index) == false
 input = gets.strip
 end
